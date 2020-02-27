@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenidos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UDz-cG-f9Y">
+                                <rect key="frame" x="134" y="300" width="152" height="34"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dwb-7x-FsW">
+                                <rect key="frame" x="76" y="423" width="262" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BYK-5q-EsR">
+                                <rect key="frame" x="76" y="511" width="262" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9O-Xu-tWX">
+                                <rect key="frame" x="76" y="630" width="262" height="34"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Iniciar Sesion"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARj-Me-39m">
+                                <rect key="frame" x="76" y="706" width="262" height="34"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Registrar"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MonteCristoLogo" translatesAutoresizingMaskIntoConstraints="NO" id="cjN-Yn-Iqo">
+                                <rect key="frame" x="20" y="44" width="374" height="219"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="219" id="ZcQ-JW-bFg"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Q9O-Xu-tWX" secondAttribute="trailing" constant="76" id="1PB-g2-8Lg"/>
+                            <constraint firstItem="Q9O-Xu-tWX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="5eQ-RQ-j5W"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UDz-cG-f9Y" secondAttribute="trailing" constant="128" id="DwH-rF-mRd"/>
+                            <constraint firstItem="cjN-Yn-Iqo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="HuZ-Yn-APB"/>
+                            <constraint firstItem="ARj-Me-39m" firstAttribute="top" secondItem="Q9O-Xu-tWX" secondAttribute="bottom" constant="42" id="I30-uq-awc"/>
+                            <constraint firstItem="ARj-Me-39m" firstAttribute="top" secondItem="Q9O-Xu-tWX" secondAttribute="bottom" constant="42" id="Il9-SX-Nt9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BYK-5q-EsR" secondAttribute="trailing" constant="76" id="J0j-ab-w8P"/>
+                            <constraint firstItem="Q9O-Xu-tWX" firstAttribute="top" secondItem="BYK-5q-EsR" secondAttribute="bottom" constant="85" id="KAu-Sg-RIo"/>
+                            <constraint firstItem="UDz-cG-f9Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="134" id="Mqd-Va-BEV"/>
+                            <constraint firstItem="BYK-5q-EsR" firstAttribute="top" secondItem="dwb-7x-FsW" secondAttribute="bottom" constant="54" id="N2y-WS-Xuq"/>
+                            <constraint firstItem="BYK-5q-EsR" firstAttribute="top" secondItem="dwb-7x-FsW" secondAttribute="bottom" constant="54" id="QiR-NU-PVc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dwb-7x-FsW" secondAttribute="trailing" constant="76" id="Qw0-BK-eUE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ARj-Me-39m" secondAttribute="bottom" constant="122" id="ZVC-24-ulL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cjN-Yn-Iqo" secondAttribute="trailing" constant="20" id="eMA-5A-atq"/>
+                            <constraint firstItem="dwb-7x-FsW" firstAttribute="top" secondItem="UDz-cG-f9Y" secondAttribute="bottom" constant="89" id="lAv-fr-Sf3"/>
+                            <constraint firstItem="BYK-5q-EsR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="pRW-Tq-WGo"/>
+                            <constraint firstItem="Q9O-Xu-tWX" firstAttribute="top" secondItem="BYK-5q-EsR" secondAttribute="bottom" constant="85" id="qmf-IV-eg6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ARj-Me-39m" secondAttribute="trailing" constant="76" id="sWm-i8-6eV"/>
+                            <constraint firstItem="ARj-Me-39m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="smx-eH-xfe"/>
+                            <constraint firstItem="dwb-7x-FsW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="tbk-3x-ePr"/>
+                            <constraint firstItem="cjN-Yn-Iqo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="vkP-gK-gxk"/>
+                            <constraint firstItem="UDz-cG-f9Y" firstAttribute="top" secondItem="cjN-Yn-Iqo" secondAttribute="bottom" constant="37" id="wka-em-grV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MonteCristoLogo" width="269" height="96"/>
+    </resources>
+</document>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Montecristo_club" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MonteCristoLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Puz-Jo-HYy">
+                                <rect key="frame" x="42" y="65" width="330" height="187"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="187" id="ZBq-sm-qlB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenidos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X38-yV-ItP">
+                                <rect key="frame" x="139" y="306" width="136" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yeT-Dg-Q18">
+                                <rect key="frame" x="62" y="418" width="290" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nJP-bb-xFm">
+                                <rect key="frame" x="62" y="501" width="290" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8w-Bt-8gW">
+                                <rect key="frame" x="62" y="616" width="290" height="34"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Iniciar Sesion"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RdM-CN-WKL">
+                                <rect key="frame" x="62" y="689" width="290" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="Registrar"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="yeT-Dg-Q18" firstAttribute="top" secondItem="X38-yV-ItP" secondAttribute="bottom" constant="82" id="1vA-Bk-rWT"/>
+                            <constraint firstItem="a8w-Bt-8gW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="2VP-9x-FAO"/>
+                            <constraint firstItem="Puz-Jo-HYy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="4KU-cZ-0tt"/>
+                            <constraint firstItem="RdM-CN-WKL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="8V0-n0-bSP"/>
+                            <constraint firstItem="RdM-CN-WKL" firstAttribute="top" secondItem="a8w-Bt-8gW" secondAttribute="bottom" constant="39" id="BDa-nA-iYn"/>
+                            <constraint firstItem="yeT-Dg-Q18" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="D0C-l4-xnk"/>
+                            <constraint firstItem="a8w-Bt-8gW" firstAttribute="top" secondItem="nJP-bb-xFm" secondAttribute="bottom" constant="81" id="D5E-D9-OaS"/>
+                            <constraint firstItem="yeT-Dg-Q18" firstAttribute="top" secondItem="X38-yV-ItP" secondAttribute="bottom" constant="82" id="Dqu-1k-cBX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RdM-CN-WKL" secondAttribute="trailing" constant="62" id="KRo-pk-Cjm"/>
+                            <constraint firstItem="nJP-bb-xFm" firstAttribute="top" secondItem="yeT-Dg-Q18" secondAttribute="bottom" constant="49" id="LbS-qm-qzL"/>
+                            <constraint firstItem="X38-yV-ItP" firstAttribute="top" secondItem="Puz-Jo-HYy" secondAttribute="bottom" constant="54" id="Ne9-Vj-aVh"/>
+                            <constraint firstItem="X38-yV-ItP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="139" id="NhN-i6-R4d"/>
+                            <constraint firstItem="nJP-bb-xFm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="NnW-35-6CN"/>
+                            <constraint firstItem="a8w-Bt-8gW" firstAttribute="top" secondItem="nJP-bb-xFm" secondAttribute="bottom" constant="81" id="OR1-KS-3Fc"/>
+                            <constraint firstItem="X38-yV-ItP" firstAttribute="top" secondItem="Puz-Jo-HYy" secondAttribute="bottom" constant="54" id="VEc-k8-bkK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X38-yV-ItP" secondAttribute="trailing" constant="139" id="dp7-k8-t6B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a8w-Bt-8gW" secondAttribute="trailing" constant="62" id="ftQ-q0-vBw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yeT-Dg-Q18" secondAttribute="trailing" constant="62" id="gFE-d5-aMa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RdM-CN-WKL" secondAttribute="bottom" constant="138" id="gsW-fP-Mmg"/>
+                            <constraint firstItem="nJP-bb-xFm" firstAttribute="top" secondItem="yeT-Dg-Q18" secondAttribute="bottom" constant="49" id="hfO-6C-z8s"/>
+                            <constraint firstItem="Puz-Jo-HYy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="mlr-pZ-5pj"/>
+                            <constraint firstItem="RdM-CN-WKL" firstAttribute="top" secondItem="a8w-Bt-8gW" secondAttribute="bottom" constant="39" id="n8x-vH-ecs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nJP-bb-xFm" secondAttribute="trailing" constant="62" id="tNb-0m-vMb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Puz-Jo-HYy" secondAttribute="trailing" constant="42" id="xgt-fi-Vif"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="Label" destination="X38-yV-ItP" id="D2q-Ap-8u7"/>
+                        <outlet property="createAccountbutton" destination="a8w-Bt-8gW" id="MKq-lU-fUT"/>
+                        <outlet property="headerImageView" destination="Puz-Jo-HYy" id="ef9-AB-CSo"/>
+                        <outlet property="passwordTextField" destination="nJP-bb-xFm" id="XMb-Nm-FFi"/>
+                        <outlet property="registerAccountbutton" destination="RdM-CN-WKL" id="QZd-gI-WSE"/>
+                        <outlet property="userTextField" destination="yeT-Dg-Q18" id="JPq-iS-gyZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MonteCristoLogo" width="269" height="96"/>
+    </resources>
+</document>
