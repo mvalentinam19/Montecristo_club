@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045E87122411C111009D4A34 /* DB_Montecristo.db in Resources */ = {isa = PBXBuildFile; fileRef = 045E87112411C111009D4A34 /* DB_Montecristo.db */; };
 		04811E3F240745B100997C9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04811E3E240745B100997C9C /* AppDelegate.swift */; };
 		04811E41240745B100997C9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04811E40240745B100997C9C /* SceneDelegate.swift */; };
 		04811E43240745B100997C9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04811E42240745B100997C9C /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		045E87112411C111009D4A34 /* DB_Montecristo.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = DB_Montecristo.db; sourceTree = "<group>"; };
 		04811E3B240745B100997C9C /* Montecristo_club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Montecristo_club.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04811E3E240745B100997C9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04811E40240745B100997C9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		04811E3D240745B100997C9C /* Montecristo_club */ = {
 			isa = PBXGroup;
 			children = (
+				045E87112411C111009D4A34 /* DB_Montecristo.db */,
 				04811E3E240745B100997C9C /* AppDelegate.swift */,
 				04811E40240745B100997C9C /* SceneDelegate.swift */,
 				04811E42240745B100997C9C /* ViewController.swift */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04811E4B240745B200997C9C /* LaunchScreen.storyboard in Resources */,
+				045E87122411C111009D4A34 /* DB_Montecristo.db in Resources */,
 				04811E48240745B200997C9C /* Assets.xcassets in Resources */,
 				04811E46240745B100997C9C /* Main.storyboard in Resources */,
 			);
