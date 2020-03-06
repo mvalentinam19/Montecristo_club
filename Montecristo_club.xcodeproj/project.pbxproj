@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		045E87122411C111009D4A34 /* DB_Montecristo.db in Resources */ = {isa = PBXBuildFile; fileRef = 045E87112411C111009D4A34 /* DB_Montecristo.db */; };
+		045E87142411D24A009D4A34 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E87132411D24A009D4A34 /* Manager.swift */; };
+		045E87172411D362009D4A34 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 045E87162411D356009D4A34 /* libsqlite3.tbd */; };
+		045E87262411D5FE009D4A34 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E871C2411D5FE009D4A34 /* FMDatabasePool.m */; };
+		045E87272411D5FE009D4A34 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E87202411D5FE009D4A34 /* FMResultSet.m */; };
+		045E87282411D5FE009D4A34 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E87212411D5FE009D4A34 /* FMDatabase.m */; };
+		045E87292411D5FE009D4A34 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 045E87232411D5FE009D4A34 /* Info.plist */; };
+		045E872A2411D5FE009D4A34 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E87242411D5FE009D4A34 /* FMDatabaseQueue.m */; };
+		045E872B2411D5FE009D4A34 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E87252411D5FE009D4A34 /* FMDatabaseAdditions.m */; };
 		04811E3F240745B100997C9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04811E3E240745B100997C9C /* AppDelegate.swift */; };
 		04811E41240745B100997C9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04811E40240745B100997C9C /* SceneDelegate.swift */; };
 		04811E43240745B100997C9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04811E42240745B100997C9C /* ViewController.swift */; };
@@ -18,6 +26,21 @@
 
 /* Begin PBXFileReference section */
 		045E87112411C111009D4A34 /* DB_Montecristo.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = DB_Montecristo.db; sourceTree = "<group>"; };
+		045E87132411D24A009D4A34 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		045E87162411D356009D4A34 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		045E87192411D5FD009D4A34 /* Montecristo_club-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Montecristo_club-Bridging-Header.h"; sourceTree = "<group>"; };
+		045E871A2411D5FE009D4A34 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		045E871B2411D5FE009D4A34 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		045E871C2411D5FE009D4A34 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		045E871D2411D5FE009D4A34 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		045E871E2411D5FE009D4A34 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		045E871F2411D5FE009D4A34 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		045E87202411D5FE009D4A34 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		045E87212411D5FE009D4A34 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		045E87222411D5FE009D4A34 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		045E87232411D5FE009D4A34 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045E87242411D5FE009D4A34 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		045E87252411D5FE009D4A34 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		04811E3B240745B100997C9C /* Montecristo_club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Montecristo_club.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04811E3E240745B100997C9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04811E40240745B100997C9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,17 +56,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045E87172411D362009D4A34 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045E87152411D356009D4A34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				045E87162411D356009D4A34 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		045E87182411D56E009D4A34 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				045E871A2411D5FE009D4A34 /* FMDatabase.h */,
+				045E87212411D5FE009D4A34 /* FMDatabase.m */,
+				045E871B2411D5FE009D4A34 /* FMDatabaseAdditions.h */,
+				045E87252411D5FE009D4A34 /* FMDatabaseAdditions.m */,
+				045E87222411D5FE009D4A34 /* FMDatabasePool.h */,
+				045E871C2411D5FE009D4A34 /* FMDatabasePool.m */,
+				045E871D2411D5FE009D4A34 /* FMDatabaseQueue.h */,
+				045E87242411D5FE009D4A34 /* FMDatabaseQueue.m */,
+				045E871F2411D5FE009D4A34 /* FMDB.h */,
+				045E871E2411D5FE009D4A34 /* FMResultSet.h */,
+				045E87202411D5FE009D4A34 /* FMResultSet.m */,
+				045E87232411D5FE009D4A34 /* Info.plist */,
+				045E87192411D5FD009D4A34 /* Montecristo_club-Bridging-Header.h */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
 		04811E32240745B100997C9C = {
 			isa = PBXGroup;
 			children = (
 				04811E3D240745B100997C9C /* Montecristo_club */,
 				04811E3C240745B100997C9C /* Products */,
+				045E87152411D356009D4A34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +111,7 @@
 		04811E3D240745B100997C9C /* Montecristo_club */ = {
 			isa = PBXGroup;
 			children = (
+				045E87182411D56E009D4A34 /* fmdb */,
 				045E87112411C111009D4A34 /* DB_Montecristo.db */,
 				04811E3E240745B100997C9C /* AppDelegate.swift */,
 				04811E40240745B100997C9C /* SceneDelegate.swift */,
@@ -66,6 +120,7 @@
 				04811E47240745B200997C9C /* Assets.xcassets */,
 				04811E49240745B200997C9C /* LaunchScreen.storyboard */,
 				04811E4C240745B200997C9C /* Info.plist */,
+				045E87132411D24A009D4A34 /* Manager.swift */,
 			);
 			path = Montecristo_club;
 			sourceTree = "<group>";
@@ -102,6 +157,7 @@
 				TargetAttributes = {
 					04811E3A240745B100997C9C = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -131,6 +187,7 @@
 				04811E4B240745B200997C9C /* LaunchScreen.storyboard in Resources */,
 				045E87122411C111009D4A34 /* DB_Montecristo.db in Resources */,
 				04811E48240745B200997C9C /* Assets.xcassets in Resources */,
+				045E87292411D5FE009D4A34 /* Info.plist in Resources */,
 				04811E46240745B100997C9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +199,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045E87272411D5FE009D4A34 /* FMResultSet.m in Sources */,
+				045E872A2411D5FE009D4A34 /* FMDatabaseQueue.m in Sources */,
 				04811E43240745B100997C9C /* ViewController.swift in Sources */,
 				04811E3F240745B100997C9C /* AppDelegate.swift in Sources */,
+				045E87282411D5FE009D4A34 /* FMDatabase.m in Sources */,
+				045E872B2411D5FE009D4A34 /* FMDatabaseAdditions.m in Sources */,
+				045E87262411D5FE009D4A34 /* FMDatabasePool.m in Sources */,
 				04811E41240745B100997C9C /* SceneDelegate.swift in Sources */,
+				045E87142411D24A009D4A34 /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N45PFWQS5Q;
 				INFOPLIST_FILE = Montecristo_club/Info.plist;
@@ -298,6 +362,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aplimovil.Montecristo-club";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Montecristo_club/fmdb/Montecristo_club-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,6 +373,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N45PFWQS5Q;
 				INFOPLIST_FILE = Montecristo_club/Info.plist;
@@ -317,6 +384,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aplimovil.Montecristo-club";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Montecristo_club/fmdb/Montecristo_club-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
