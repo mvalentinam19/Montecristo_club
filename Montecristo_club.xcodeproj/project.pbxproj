@@ -25,6 +25,7 @@
 		04D88816241ACA81007FDCDF /* Cliente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D88815241ACA81007FDCDF /* Cliente.swift */; };
 		04D88820241ACDEE007FDCDF /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8881F241ACDEE007FDCDF /* RegisterController.swift */; };
 		04D88822241AD2D5007FDCDF /* InicioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D88821241AD2D5007FDCDF /* InicioController.swift */; };
+		04D88828241AD874007FDCDF /* BarberosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D88827241AD874007FDCDF /* BarberosController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		04D88815241ACA81007FDCDF /* Cliente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cliente.swift; sourceTree = "<group>"; };
 		04D8881F241ACDEE007FDCDF /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		04D88821241AD2D5007FDCDF /* InicioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioController.swift; sourceTree = "<group>"; };
+		04D88827241AD874007FDCDF /* BarberosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarberosController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				04D88815241ACA81007FDCDF /* Cliente.swift */,
 				04D8881F241ACDEE007FDCDF /* RegisterController.swift */,
 				04D88821241AD2D5007FDCDF /* InicioController.swift */,
+				04D88827241AD874007FDCDF /* BarberosController.swift */,
 			);
 			path = Montecristo_club;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				045E87272411D5FE009D4A34 /* FMResultSet.m in Sources */,
 				045E872A2411D5FE009D4A34 /* FMDatabaseQueue.m in Sources */,
 				04D88820241ACDEE007FDCDF /* RegisterController.swift in Sources */,
+				04D88828241AD874007FDCDF /* BarberosController.swift in Sources */,
 				04811E43240745B100997C9C /* ViewController.swift in Sources */,
 				04811E3F240745B100997C9C /* AppDelegate.swift in Sources */,
 				04D88816241ACA81007FDCDF /* Cliente.swift in Sources */,

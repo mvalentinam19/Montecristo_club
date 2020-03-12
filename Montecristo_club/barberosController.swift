@@ -6,4 +6,15 @@
 //  Copyright © 2020 html. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class BarberosController: UIViewController {
+
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+
+}

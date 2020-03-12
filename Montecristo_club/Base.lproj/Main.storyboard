@@ -351,10 +351,10 @@
             </objects>
             <point key="canvasLocation" x="1837.68115942029" y="146.65178571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Barberos Controller-->
         <scene sceneID="BC9-EQ-dtG">
             <objects>
-                <viewController id="V20-b4-xlg" sceneMemberID="viewController">
+                <viewController id="V20-b4-xlg" customClass="BarberosController" customModule="Montecristo_club" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GfX-lG-cMF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -916,7 +916,7 @@
         <image name="ronalbarber" width="108" height="148"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Raf-M8-lbb"/>
+        <segue reference="HLP-t4-err"/>
         <segue reference="aiX-9e-LoO"/>
         <segue reference="k83-bE-O3H"/>
     </inferredMetricsTieBreakers>
