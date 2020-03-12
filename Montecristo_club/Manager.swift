@@ -48,10 +48,10 @@ import Foundation
 class Manager {
     
 
+    //func addCliente (_ cliente: Cliente){
     
-    
-    
-    
+    //    clientes.append(cliente)
+     //}
     
     //Uses the FMDB wrapper to get a reference to the Books database on the specific path
     func getOpenDB()->FMDatabase? {
@@ -62,6 +62,9 @@ class Manager {
         }
         return db
     }
+    
+    
+    
 
 }
 

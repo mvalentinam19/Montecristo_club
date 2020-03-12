@@ -103,10 +103,10 @@
             </objects>
             <point key="canvasLocation" x="132" y="147"/>
         </scene>
-        <!--View Controller-->
+        <!--Register Controller-->
         <scene sceneID="AJy-zh-Fxt">
             <objects>
-                <viewController id="Sd6-x4-qM6" sceneMemberID="viewController">
+                <viewController id="Sd6-x4-qM6" customClass="RegisterController" customModule="Montecristo_club" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d34-YT-XLu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -188,15 +188,23 @@
                         <viewLayoutGuide key="safeArea" id="qbb-1L-8CR"/>
                     </view>
                     <navigationItem key="navigationItem" id="Gnv-PQ-Wxo"/>
+                    <connections>
+                        <outlet property="cancelButton" destination="QTk-MX-x0p" id="RnC-D6-4dO"/>
+                        <outlet property="lastNameTextField" destination="DTd-KN-a5K" id="o9l-sF-9p2"/>
+                        <outlet property="nameTextField" destination="il3-Fr-RTf" id="gqx-N1-dAV"/>
+                        <outlet property="passwordTextField" destination="xHS-YM-d6s" id="hjO-Tb-LcX"/>
+                        <outlet property="registerButton" destination="Oy0-jh-gk9" id="eOc-75-AXE"/>
+                        <outlet property="userTextField" destination="BP7-pY-Qe9" id="OvN-UF-1k3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C9P-Qz-Xlx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="947.82608695652186" y="146.65178571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Inicio Controller-->
         <scene sceneID="658-S5-VrZ">
             <objects>
-                <viewController id="mmc-5N-bV5" sceneMemberID="viewController">
+                <viewController id="mmc-5N-bV5" customClass="InicioController" customModule="Montecristo_club" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iWI-kv-1Oj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -325,6 +333,19 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="DRP-FP-U5f"/>
+                    <connections>
+                        <outlet property="barberoUILabel" destination="3px-ki-GaF" id="2PA-PB-fb8"/>
+                        <outlet property="calendarImage" destination="IF2-Zv-xee" id="FSE-QH-VHy"/>
+                        <outlet property="fechaUILabel" destination="Wda-6I-4ea" id="llR-Kr-svH"/>
+                        <outlet property="holaUILabel" destination="UPM-hc-5dp" id="7gZ-bB-eTh"/>
+                        <outlet property="horaUILabel" destination="3yG-ln-URK" id="1C5-fm-C28"/>
+                        <outlet property="noButton" destination="Rip-vw-Pho" id="Fsn-0a-LfH"/>
+                        <outlet property="ponerfechaTextField" destination="vMB-JK-Csb" id="dwW-YV-cNf"/>
+                        <outlet property="ponerhoraTextField" destination="PeJ-As-91x" id="JJs-CX-vEd"/>
+                        <outlet property="relojImage" destination="8vg-Lu-SQG" id="v73-oT-BfM"/>
+                        <outlet property="reservaUILabel" destination="QFb-GF-Lh1" id="cxs-uI-f52"/>
+                        <outlet property="siButton" destination="Sa8-fV-WTC" id="ZCb-Y6-SIn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="afx-vr-iuw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

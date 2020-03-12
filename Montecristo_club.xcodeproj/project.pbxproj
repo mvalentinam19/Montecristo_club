@@ -22,6 +22,9 @@
 		04811E46240745B100997C9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04811E44240745B100997C9C /* Main.storyboard */; };
 		04811E48240745B200997C9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04811E47240745B200997C9C /* Assets.xcassets */; };
 		04811E4B240745B200997C9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04811E49240745B200997C9C /* LaunchScreen.storyboard */; };
+		04D88816241ACA81007FDCDF /* Cliente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D88815241ACA81007FDCDF /* Cliente.swift */; };
+		04D88820241ACDEE007FDCDF /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8881F241ACDEE007FDCDF /* RegisterController.swift */; };
+		04D88822241AD2D5007FDCDF /* InicioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D88821241AD2D5007FDCDF /* InicioController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,9 @@
 		04811E47240745B200997C9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04811E4A240745B200997C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04811E4C240745B200997C9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D88815241ACA81007FDCDF /* Cliente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cliente.swift; sourceTree = "<group>"; };
+		04D8881F241ACDEE007FDCDF /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		04D88821241AD2D5007FDCDF /* InicioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,9 @@
 				04811E49240745B200997C9C /* LaunchScreen.storyboard */,
 				04811E4C240745B200997C9C /* Info.plist */,
 				045E87132411D24A009D4A34 /* Manager.swift */,
+				04D88815241ACA81007FDCDF /* Cliente.swift */,
+				04D8881F241ACDEE007FDCDF /* RegisterController.swift */,
+				04D88821241AD2D5007FDCDF /* InicioController.swift */,
 			);
 			path = Montecristo_club;
 			sourceTree = "<group>";
@@ -199,10 +208,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D88822241AD2D5007FDCDF /* InicioController.swift in Sources */,
 				045E87272411D5FE009D4A34 /* FMResultSet.m in Sources */,
 				045E872A2411D5FE009D4A34 /* FMDatabaseQueue.m in Sources */,
+				04D88820241ACDEE007FDCDF /* RegisterController.swift in Sources */,
 				04811E43240745B100997C9C /* ViewController.swift in Sources */,
 				04811E3F240745B100997C9C /* AppDelegate.swift in Sources */,
+				04D88816241ACA81007FDCDF /* Cliente.swift in Sources */,
 				045E87282411D5FE009D4A34 /* FMDatabase.m in Sources */,
 				045E872B2411D5FE009D4A34 /* FMDatabaseAdditions.m in Sources */,
 				045E87262411D5FE009D4A34 /* FMDatabasePool.m in Sources */,
